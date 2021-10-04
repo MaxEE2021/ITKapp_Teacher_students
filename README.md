@@ -10,7 +10,7 @@
 
 
 # StudentView
-[![Screenshot-1633329795.png](https://i.postimg.cc/XYRGRRCB/Screenshot-1633329795.png)](https://postimg.cc/3kZxpb93)
+[![Screenshot-1633383898.png](https://i.postimg.cc/vB3WwPMR/Screenshot-1633383898.png)](https://postimg.cc/Vr0SjWd4)
 
 # Teacher view
 [![Screenshot-1633382939.png](https://i.postimg.cc/nhj9wFCt/Screenshot-1633382939.png)](https://postimg.cc/754L5y3B)

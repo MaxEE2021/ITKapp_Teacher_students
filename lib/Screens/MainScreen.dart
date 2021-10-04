@@ -31,7 +31,7 @@ class _MyMainScreenState extends State<MyMainScreen> {
   @override
   Widget build(BuildContext context) {
     _BNBIdex = [
-    MyAnnouncementsScreenProffesor(
+    MyAnnouncementsScreen(
       myContent: widget.myContent,
     ),
     // MyAnnouncementsScreen(
