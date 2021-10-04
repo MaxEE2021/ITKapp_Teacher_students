@@ -1,16 +1,28 @@
 # itk_teacher_students_app
 
-A new Flutter project.
+[![Screenshot-1633383009.png](https://i.postimg.cc/6qM4FTrB/Screenshot-1633383009.png)](https://postimg.cc/0KJNwkX4)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+[![Screenshot-1633383011.png](https://i.postimg.cc/bYgnZVK4/Screenshot-1633383011.png)](https://postimg.cc/0r6j3n5C)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[![Screenshot-1633329818.png](https://i.postimg.cc/pX1nZhVZ/Screenshot-1633329818.png)](https://postimg.cc/F73RFKLd)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# StudentView
+[![Screenshot-1633329795.png](https://i.postimg.cc/XYRGRRCB/Screenshot-1633329795.png)](https://postimg.cc/3kZxpb93)
+
+# Teacher view
+[![Screenshot-1633382939.png](https://i.postimg.cc/nhj9wFCt/Screenshot-1633382939.png)](https://postimg.cc/754L5y3B)
+
+
+
+[![Screenshot-1633382945.png](https://i.postimg.cc/7YL20M4h/Screenshot-1633382945.png)](https://postimg.cc/0rLjqSb1)
+
+
+
+
+[![Screenshot-1633329798.png](https://i.postimg.cc/8CLJNZRK/Screenshot-1633329798.png)](https://postimg.cc/qtMMGXZy)
+
+
+

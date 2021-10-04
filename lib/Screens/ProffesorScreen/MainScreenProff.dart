@@ -5,21 +5,21 @@ import 'package:itk_teacher_students_app/Screens/EventsScreen.dart';
 import 'package:itk_teacher_students_app/Screens/ProffesorScreen/AnnouncementsScreenProff.dart';
 import 'package:itk_teacher_students_app/Widgets/Constants.dart';
 
-class MyMainScreen extends StatefulWidget {
-  // MyMainScreen({Key? key}) : super(key: key);
+class MyMainScreenProffesor extends StatefulWidget {
+  // MyMainScreenProffesor({Key? key}) : super(key: key);
   final List? myContent;
-  const MyMainScreen({
+  const MyMainScreenProffesor({
     this.myContent,
   });
 
   @override
-  _MyMainScreenState createState() => _MyMainScreenState();
+  _MyMainScreenProffesorState createState() => _MyMainScreenProffesorState();
 }
 
-class _MyMainScreenState extends State<MyMainScreen> {
+class _MyMainScreenProffesorState extends State<MyMainScreenProffesor> {
     int _BotmNavBarCurrentIndex=0;
   List<Widget> _BNBIdex = [
-    // MyAnnouncementsScreen(),
+    // MyAnnouncementsScreenProffesor(),
     // MyEventsScreen(),
     // MyAccountScreen(),
   ];
@@ -34,9 +34,6 @@ class _MyMainScreenState extends State<MyMainScreen> {
     MyAnnouncementsScreenProffesor(
       myContent: widget.myContent,
     ),
-    // MyAnnouncementsScreen(
-    //   myContent: widget.myContent,
-    // ),
     MyEventsScreen(),
     MyAccountScreen(),
   ];

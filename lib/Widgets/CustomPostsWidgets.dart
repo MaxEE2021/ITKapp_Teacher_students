@@ -52,7 +52,7 @@ class _MyPostsWidgetState extends State<MyPostsWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    "User Name",
+                                    "Proffesor Name",
                                     style: TextStyle(
                                       fontSize: 15,
                                       color: Colors.black,

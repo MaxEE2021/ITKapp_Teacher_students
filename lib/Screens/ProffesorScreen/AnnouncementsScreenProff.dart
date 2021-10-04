@@ -3,21 +3,22 @@ import 'package:flutter/material.dart';
 import 'package:itk_teacher_students_app/Widgets/Constants.dart';
 import 'package:itk_teacher_students_app/Widgets/CustomPostsWidgets.dart';
 import 'package:itk_teacher_students_app/Widgets/CustomTags.dart';
+import 'package:itk_teacher_students_app/Widgets/CustomTextField.dart';
 import 'package:itk_teacher_students_app/Widgets/CustomUserBanner.dart';
 
-class MyAnnouncementsScreen extends StatefulWidget {
-  // MyAnnouncementsScreen({Key? key}) : super(key: key);
+class MyAnnouncementsScreenProffesor extends StatefulWidget {
+  // MyAnnouncementsScreenProffesor({Key? key}) : super(key: key);
   final List? myContent;
-  const MyAnnouncementsScreen ({
+  const MyAnnouncementsScreenProffesor ({
     this.myContent,
   });
 
   @override
-  _MyAnnouncementsScreenState createState() => _MyAnnouncementsScreenState();
+  _MyAnnouncementsScreenProffesorState createState() => _MyAnnouncementsScreenProffesorState();
 }
 
 
-class _MyAnnouncementsScreenState extends State<MyAnnouncementsScreen> {
+class _MyAnnouncementsScreenProffesorState extends State<MyAnnouncementsScreenProffesor> {
   String img = "https://weneedfun.com/wp-content/uploads/2016/07/Cute-Girl-Profile-pictures-For-Facebook-7.jpg";
 
   List MyTagsList=[
@@ -71,32 +72,67 @@ class _MyAnnouncementsScreenState extends State<MyAnnouncementsScreen> {
               ),
             ],
           ),
+          
+
 
           Padding(
-            padding: const EdgeInsets.only(top:20),
+            padding: const EdgeInsets.only(left:10 ,right:10 ,top: 15,),
             child: Container(
-              height: 70,
-              // color: Colors.pink,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                // itemCount: mycontenList?.length,
-                itemCount: MyTagsList.length,
-                itemBuilder: (BuildContext context, int index) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal:8.0),
-                    child: MyTagsList[index],
-                    // child: MyTagsWidget(
-                    //   JsonImage:  "${mycontenList?[index]["yoast_head_json"]["og_image"][0]["url"]}",
-                    // ),
-                  );
-                },
+              height: 150,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [BoxShadow(
+                  offset: Offset(-5,5),
+                  blurRadius: 5,
+                  color: Colors.black54,
+                )],
+                color: Colors.grey.shade100
+              ),
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left:4, right: 4, top: 4),
+                    child: Align(
+                      alignment: Alignment.topCenter,
+                      child: TextField(
+                        maxLines: 3,
+                        decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          filled: true,
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                            borderSide: BorderSide(
+                              color: Colors.black,
+                              width: 0.6,
+                            ),
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                            borderSide: BorderSide(
+                              color: MyPrimaryColor,
+                              width: 2,
+                            ),
+                          )
+                        ),
+                      ),
+                    ),
+                  ),
+                  TextButton(
+                    style: TextButton.styleFrom(
+                      backgroundColor: My3ndColor,
+                      primary: Colors.black
+                    ),
+                    child: Text("Post"),
+                    onPressed: (){}, 
+                  )
+                ],
               ),
             ),
           ),
 
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.only(top:20),
+              padding: const EdgeInsets.only(top:15),
               child: ListView.builder(
                 itemCount: mycontenList?.length,
                 itemBuilder: (BuildContext context, int index) {
